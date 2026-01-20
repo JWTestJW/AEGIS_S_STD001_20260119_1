@@ -1,4 +1,31 @@
-## リリースラベルについて
+<details>
+<summary>📌 PR タイトル規約（クリックして確認）</summary>
+
+### フォーマット
+
+```
+merge(<source>-><target>): <summary>
+```
+
+### 例
+
+```
+merge(dev->qa): auth OAuth ログイン追加
+merge(qa->main): release 1.4.0
+merge(feature/login-timeout->dev): ログインタイムアウト修正
+```
+
+### 補足ルール
+
+- PR タイトルは Merge Commit の先頭行として使用されます
+- 規約に一致しない PR は GitHub Actions によりマージ不可となります
+- summary は日本語 / 英語どちらでも可
+
+</details>
+
+
+<details>
+<summary>📌 リリースラベルについて</summary>
 
 ⚠️ **この PR のマージ先が `main` の場合のみ必須です。**
 
@@ -18,3 +45,4 @@
   （例：ドキュメント更新、CI 設定変更など）
 
 ※ `dev` や `qa` へのマージの場合は対応不要です。
+</details>
