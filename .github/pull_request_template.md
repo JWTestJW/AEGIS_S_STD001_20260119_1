@@ -45,4 +45,4 @@ merge(feature/login-timeout->dev): ログインタイムアウト修正
   （例：ドキュメント更新、CI 設定変更など）
 
 ※ `dev` や `qa` へのマージの場合は対応不要です。
-<details>
+</details>
